@@ -1,0 +1,20 @@
+﻿# Environment dan rahasia lokal
+.env
+.env.*
+!.env.example
+
+# Dependensi dan hasil tes
+/vendor/
+/node_modules/
+.phpunit.result.cache
+
+# Log dan file sementara
+*.log
+*.tmp
+*.bak
+
+# Pengaturan editor dan file sistem
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
